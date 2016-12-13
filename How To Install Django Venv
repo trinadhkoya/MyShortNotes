@@ -1,0 +1,35 @@
+Trinadhs-MacBook-Pro:djangoboys trinadhkoya$ python3 --version
+
+Python 3.5.2
+
+Trinadhs-MacBook-Pro:djangoboys trinadhkoya$ python3  -m venv myenv
+
+Trinadhs-MacBook-Pro:djangoboys trinadhkoya$ ls
+
+myenv
+
+Trinadhs-MacBook-Pro:djangoboys trinadhkoya$ cd myenv/
+
+Trinadhs-MacBook-Pro:myenv trinadhkoya$ ls
+
+bin		include		lib		pyvenv.cfg
+
+Trinadhs-MacBook-Pro:myenv trinadhkoya$ source bin/activate
+
+(myenv) Trinadhs-MacBook-Pro:myenv trinadhkoya$ pip install --upgrade pip
+
+Collecting pip
+  
+  Using cached pip-9.0.1-py2.py3-none-any.whl
+
+Installing collected packages: pip
+
+Found existing installation: pip 8.1.1
+
+  Uninstalling pip-8.1.1:
+        
+        Successfully uninstalled pip-8.1.1
+
+Successfully installed pip-9.0.1
+
+(myenv) Trinadhs-MacBook-Pro:myenv trinadhkoya$
