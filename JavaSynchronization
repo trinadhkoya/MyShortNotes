@@ -1,0 +1,98 @@
+package com.dotlabs.sehat.test;
+
+/**
+ * Created by trina on 1/9/2017.
+ */
+
+
+//this is the shared class ,Where we are doing some stuff
+
+class SharedResource {
+    synchronized void printTable(int n) {//synchronized method
+        for (int i = 1; i <= 5; i++) {
+            System.out.println(n * i);
+            try {
+                Thread.sleep(400);
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+        }
+
+    }
+}
+
+
+
+//Let us assume it is my fisrt thread
+
+class FirstThread extends Thread {
+    //Reference object for SharedResource
+    SharedResource t;
+
+    FirstThread(SharedResource t) {
+        this.t = t;
+    }
+
+    public void run() {
+        t.printTable(5);
+    }
+
+}
+
+
+//This is my second Thread
+
+class SecondThread extends Thread {
+    //Reference object for SharedResource.
+    SharedResource t;
+
+    SecondThread(SharedResource t) {
+        this.t = t;
+    }
+
+    public void run() {
+        t.printTable(100);
+    }
+}
+
+
+//main class
+public class Example {
+
+    public static void main(String args[]) {
+
+        //Created a Sharedresource object .To access
+        SharedResource sharedResource = new SharedResource();//only one object
+        FirstThread firstThread = new FirstThread(sharedResource);
+        SecondThread secondThread = new SecondThread(sharedResource);
+        firstThread.start();
+        secondThread.start();
+    }
+}
+
+//In this example ,i have shown how  synchronise method works.
+//in this case ,first we created a shared object ,and passed it to our Two Threads to do stuff.In that when first thread starts it's execution,the second thread has no control over the sharedObject.What should it do is "Monitor".
+//But if you remove Synchronised method in our Shared Resource.The output varies.
+//This is for Synchronised
+//5
+//10
+//15
+//20
+//25
+//100
+//200
+//300
+//400
+//500
+//This is for not synchronised
+//5
+//100
+//10
+//200
+//15
+//300
+//20
+//400
+//25
+//500
+
