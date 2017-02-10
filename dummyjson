@@ -3,7 +3,7 @@
         "login": "mojombo",
         "id": 1,
         "avatar_url": "https://avatars.githubusercontent.com/u/1?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "27",
         "url": "https://api.github.com/users/mojombo",
         "type": "User",
         "site_admin": false
@@ -12,7 +12,7 @@
         "login": "defunkt",
         "id": 2,
         "avatar_url": "https://avatars.githubusercontent.com/u/2?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "56",
         "type": "User",
         "site_admin": true
     },
@@ -20,7 +20,7 @@
         "login": "pjhyett",
         "id": 3,
         "avatar_url": "https://avatars.githubusercontent.com/u/3?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "6565",
         "url": "https://api.github.com/users/pjhyett",
         "type": "User",
         "site_admin": false
@@ -133,7 +133,7 @@
         "login": "topfunky",
         "id": 26,
         "avatar_url": "https://avatars.githubusercontent.com/u/26?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "54647",
         "url": "https://api.github.com/users/topfunky",
         "type": "User",
         "site_admin": false
@@ -142,7 +142,7 @@
         "login": "anotherjesse",
         "id": 27,
         "avatar_url": "https://avatars.githubusercontent.com/u/27?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "54",
         "url": "https://api.github.com/users/anotherjesse",
         "type": "User",
         "site_admin": false
@@ -151,7 +151,7 @@
         "login": "roland",
         "id": 28,
         "avatar_url": "https://avatars.githubusercontent.com/u/28?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "4342546",
         "url": "https://api.github.com/users/roland",
         "type": "User",
         "site_admin": false
@@ -168,7 +168,7 @@
         "login": "fanvsfan",
         "id": 30,
         "avatar_url": "https://avatars.githubusercontent.com/u/30?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "34453657",
         "url": "https://api.github.com/users/fanvsfan",
         "type": "User",
         "site_admin": false
@@ -177,7 +177,7 @@
         "login": "tomtt",
         "id": 31,
         "avatar_url": "https://avatars.githubusercontent.com/u/31?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "123456",
         "url": "https://api.github.com/users/tomtt",
         "type": "User",
         "site_admin": false
@@ -195,7 +195,7 @@
         "login": "nitay",
         "id": 34,
         "avatar_url": "https://avatars.githubusercontent.com/u/34?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "23456",
         "url": "https://api.github.com/users/nitay",
         "type": "User",
         "site_admin": false
@@ -204,7 +204,7 @@
         "login": "kevwil",
         "id": 35,
         "avatar_url": "https://avatars.githubusercontent.com/u/35?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "2345",
         "url": "https://api.github.com/users/kevwil",
         "type": "User",
         "site_admin": false
@@ -213,7 +213,7 @@
         "login": "KirinDave",
         "id": 36,
         "avatar_url": "https://avatars.githubusercontent.com/u/36?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "2345678",
         "url": "https://api.github.com/users/KirinDave",
         "type": "User",
         "site_admin": false
@@ -222,7 +222,7 @@
         "login": "jamesgolick",
         "id": 37,
         "avatar_url": "https://avatars.githubusercontent.com/u/37?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "12345",
         "url": "https://api.github.com/users/jamesgolick",
         "type": "User",
         "site_admin": false
@@ -231,7 +231,7 @@
         "login": "atmos",
         "id": 38,
         "avatar_url": "https://avatars.githubusercontent.com/u/38?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "1234",
         "url": "https://api.github.com/users/atmos",
         "type": "User",
         "site_admin": false
@@ -249,7 +249,7 @@
         "login": "mojodna",
         "id": 45,
         "avatar_url": "https://avatars.githubusercontent.com/u/45?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "2345",
         "type": "User",
         "site_admin": false
     },
@@ -257,7 +257,7 @@
         "login": "bmizerany",
         "id": 46,
         "avatar_url": "https://avatars.githubusercontent.com/u/46?v=3",
-        "gravatar_id": "",
+        "gravatar_id": "23",
         "url": "https://api.github.com/users/bmizerany",
         "type": "User",
         "site_admin": false
