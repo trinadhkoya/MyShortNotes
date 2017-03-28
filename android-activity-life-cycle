@@ -1,0 +1,32 @@
+when ever an Acivity opened:
+
+onCreate invoked
+onStart invoked
+onResume invoked
+
+When we press the home button:
+
+onPause 
+onStop
+
+when we repon the minimised Activity
+
+D: onRestart invoked
+D: onStart invoked
+D: onResume invoked
+
+
+When we press the back button
+
+D: onPause invoked
+D: onStop invoked
+D: onDestroy invoked
+
+when we remove the app in/from  minimised stack/running tasks
+
+D: onDestroy invoked
+
+
+
+
+
